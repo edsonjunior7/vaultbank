@@ -49,7 +49,7 @@ O VaultBank simula um banco digital real com:
                                  │
           ┌──────────────────────┼──────────────────────┐
           │                      │                      │
-   ┌──────▼──────┐      ┌───────▼───────┐      ┌──────▼──────┐
+   ┌──────▼──────┐      ┌───────-▼───────┐      ┌──────▼──────┐
    │Auth Service │      │Account Service│      │Transaction  │
    │   :8081     │      │    :8082      │      │  Service    │
    │             │      │               │      │   :8083     │
@@ -278,7 +278,4 @@ GET  /transactions/history
 **Edson Junior** — [@edsonjunior7](https://github.com/edsonjunior7)
 README
 
-git add README.md
-git commit -m "docs: add complete professional README"
-git push
-```
+
