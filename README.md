@@ -1,5 +1,3 @@
-
-cat > ~/vaultbank/README.md << 'README'
 # 🏦 VaultBank — Distributed Digital Banking System
 
 > Plataforma bancária distribuída enterprise-grade inspirada em Nubank, Revolut e Wise.
