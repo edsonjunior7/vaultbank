@@ -102,7 +102,7 @@ Core banking concepts implemented:
                                                          │
         ┌────────────────────────┬───────────────────────┴──────────────────────┐
         │                        │                                              │
-┌───────▼────────┐     ┌─────────▼──────────┐                     ┌──────────── ▼─────────────┐
+┌───────▼────────┐     ┌─────────▼──────────┐                     ┌────────────-▼─────────────┐
 │ Notification   │     │ Fraud Detection    │                     │       Audit Service       │
 │ Service :8084  │     │ Service :8085      │                     │           :8086           │
 │ Push / Email   │     │ Score Engine       │                     │      Immutable Logs       │
